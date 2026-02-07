@@ -1,7 +1,14 @@
+import Header from "@/components/common/header";
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <main>{children}</main>;
+  return (
+    <div>
+      <Header />
+      <main>{children}</main>
+    </div>
+  );
 }

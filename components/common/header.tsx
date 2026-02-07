@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { ModeToggle } from "../theme-toggle";
 export default function Header() {
   return (
     <div className="border-b border-gray-700 py-6">
@@ -25,6 +26,7 @@ export default function Header() {
         </nav>
         <div className="flex items-center gap-5">
           <Button>Contact</Button>
+          <ModeToggle />
         </div>
       </div>
     </div>

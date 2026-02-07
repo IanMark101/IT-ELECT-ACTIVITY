@@ -36,9 +36,9 @@ export default function Footer() {
         </div>
         <div>
           <ul className="flex flex-col gap-2">
-            <li>Email: test@gmail.com</li>
-            <li>Phone: 123 123 123</li>
-            <li>Github</li>
+            <li>Email: ianmarkbuenaflor9@gmail.com</li>
+            <li>Phone: 09229855227</li>
+            <li>IanMark101</li>
           </ul>
         </div>
       </div>
